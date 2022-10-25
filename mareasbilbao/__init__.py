@@ -1,1 +1,1 @@
-from mareasbilbao.mareasbilbao import MareasBilbao
+from mareasbilbao.mareasbilbao import mareasbilbao
