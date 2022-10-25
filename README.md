@@ -21,6 +21,13 @@ Después, simplemente elige la fecha del día que quieres obtener información s
 marea = mareasbilbao('20221030')
 ```
 
+Para terminar, solo queda mostrar el resultado. Para ello, pon lo siguiente:
+
+```Python
+print(marea.horario())
+```
+
+
 License
 ----
 
