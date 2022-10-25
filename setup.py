@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'mareasbilbao',
   packages = ['mareasbilbao'],
-  version = '0.1',
+  version = '0.13',
   license='MIT',
   description = 'Get to know the tides of bilbao',
   author = 'Mikel Juarez',
   author_email = 'mikel.juarez@alumni.mondragon.edu',
   url = 'https://github.com/mikeljuarez/mareasbilbao',
-  download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/0.12.tar.gz',
+  download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/0.13.tar.gz',
   keywords = ['scraping', 'easy', 'scraper', 'website', 'download', 'links', 'images', 'videos'],
   install_requires=[
           'requests', 
