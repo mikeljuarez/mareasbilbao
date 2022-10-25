@@ -10,11 +10,14 @@ $ pip install mareasbilbao
 ```
 
 ### Cómo usarlo
-Mareasbilbao fue programado pensando en la facilidad de uso. Primero, importa mareasbilbao desde mareasbilbao.
+Mareasbilbao fue programado pensando en la facilidad de uso.
+
+Primero, importa mareasbilbao desde mareasbilbao.
 
 ```Python
 from mareasbilbao import mareasbilbao
 ```
+
 Después, simplemente elige la fecha del día que quieres obtener información sobre la marea. Debe ser año, mes y día todo seguido.
 
 ```Python
