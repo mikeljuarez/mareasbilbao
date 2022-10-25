@@ -5,13 +5,16 @@ setup(
   version = '0.1',
   license='MIT',
   description = 'Get to know the tides of bilbao',
-  author = 'Mikel Juarez and Ander Rodriguez',
-  author_email = 'mikel.juarez@alumni.mondragon.edu',
+  author1 = 'Mikel Juarez',
+  author2 = 'Ander Rodriguez',
+  author1_email = 'mikel.juarez@alumni.mondragon.edu',
+  author2_email = 'ander.rodriguezc@alumni.mondragon.edu',
   url = 'https://github.com/mikeljuarez/mareasbilbao',
   download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/mareasbilbao-0.1.tar.gz',
   keywords = ['scraping', 'easy', 'scraper', 'website', 'download', 'links', 'images', 'videos'],
   install_requires=[
           'requests',
+          'json',  
       ],
   classifiers=[  # Optional
     # How mature is this project? Common values are
