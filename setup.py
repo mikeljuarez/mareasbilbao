@@ -12,7 +12,6 @@ setup(
   keywords = ['scraping', 'easy', 'scraper', 'website', 'download', 'links', 'images', 'videos'],
   install_requires=[
           'requests',
-          'json',
       ],
   classifiers=[  # Optional
     # How mature is this project? Common values are
