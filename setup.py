@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'mareasbilbao',
   packages = ['mareasbilbao'],
-  version = '0.13',
+  version = '0.14',
   license='MIT',
   description = 'Get to know the tides of bilbao',
   author = 'Mikel Juarez',
   author_email = 'mikel.juarez@alumni.mondragon.edu',
   url = 'https://github.com/mikeljuarez/mareasbilbao',
-  download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/0.13.tar.gz',
-  keywords = ['scraping', 'easy', 'scraper', 'website', 'download', 'links', 'images', 'videos'],
+  download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/0.14.tar.gz',
+  keywords = ['bilbao', 'tides', 'water', 'surf'],
   install_requires=[
           'requests', 
       ],
@@ -18,11 +18,11 @@ setup(
     #   3 - Alpha
     #   4 - Beta
     #   5 - Production/Stable
-    'Development Status :: 3 - Alpha',
+    'Development Status :: 5 - Production/Stable',
 
     # Indicate who your project is intended for
-    'Intended Audience :: Developers',
-    'Topic :: Software Development :: Build Tools',
+    'Intended Audience :: Education',
+    'Topic :: Education :: Testing',
 
     # Pick your license as you wish
     'License :: OSI Approved :: MIT License',
@@ -36,6 +36,5 @@ setup(
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
-    'Programming Language :: Python :: 3.10',
   ],
 )
