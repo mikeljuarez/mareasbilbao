@@ -8,7 +8,7 @@ setup(
   author = 'Mikel Juarez',
   author_email = 'mikel.juarez@alumni.mondragon.edu',
   url = 'https://github.com/mikeljuarez/mareasbilbao',
-  download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/0.11.tar.gz',
+  download_url = 'https://github.com/mikeljuarez/mareasbilbao/archive/refs/tags/0.12.tar.gz',
   keywords = ['scraping', 'easy', 'scraper', 'website', 'download', 'links', 'images', 'videos'],
   install_requires=[
           'requests', 
