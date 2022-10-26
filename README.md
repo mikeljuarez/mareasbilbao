@@ -1,30 +1,30 @@
-# Mareasbilbao - Conoce las mareas de Bilbao
-Con mareasbilbao, puedes saber la bajamar y la pleamar de cada día en Bilbao en python con una sola línea de código. Solo tienes que especificar la fecha del día que quieras obtener información.
+# Mareasbilbao - Get to know the tides of Bilbao
+With mareasbilbao, you can know the low tide and high tide of each day in Bilbao in python with a single line of code. You only have to specify the date of the day you want to get information.
 
-## Uso
-### Instalación
-Para descargar mareasbilbao, haz un fork de este repo de github o simplemente usa Pypi vía pip.
+## Usage
+### Getting it
+To download mareasbilbao, do a fork of this github repo or just use Pypi via pip.
 
 ```sh
 $ pip install mareasbilbao
 ```
 
-### Cómo usarlo
-Mareasbilbao fue programado pensando en la facilidad de uso.
+### Using it
+Mareasbilbao was programmed with ease-of-use in mind.
 
-Primero, importa mareasbilbao desde mareasbilbao.
+First, import mareasbilbao from mareasbilbao.
 
 ```Python
 from mareasbilbao import mareasbilbao
 ```
 
-Después, simplemente elige la fecha del día que quieres obtener información sobre la marea. Debe ser año, mes y día todo seguido.
+Then, simply choose the date of the day you want to get tide information. It should be year, month and day all in a row.
 
 ```Python
 marea = mareasbilbao('20221030')
 ```
 
-Para terminar, solo queda mostrar el resultado. Para ello, pon lo siguiente:
+Finally, the only thing left to do is to show the result. To do this, put the following:
 
 ```Python
 print(marea.horario())
