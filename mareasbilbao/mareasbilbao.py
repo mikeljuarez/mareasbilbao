@@ -15,4 +15,4 @@ class mareasbilbao:
     def horario(self):
         for x in self.datos:
             print(x['hora'], x['tipo'])
-
+        return ""
