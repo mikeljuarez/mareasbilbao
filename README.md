@@ -18,10 +18,11 @@ First, import mareasbilbao from mareasbilbao.
 from mareasbilbao import mareasbilbao
 ```
 
-Then, simply choose the date of the day you want to get tide information. It should be year, month and day all in a row.
+Then, simply choose the date of the day you want to get tide information. It should be year, month and day all in a row. It can be in string or integer.
 
 ```Python
 marea = mareasbilbao('20221030')
+marea = mareasbilbao(20221030)
 ```
 
 Finally, the only thing left to do is to show the result. To do this, put the following:
