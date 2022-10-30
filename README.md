@@ -22,6 +22,7 @@ Then, simply choose the date of the day you want to get tide information. It sho
 
 ```Python
 marea = mareasbilbao('20221030')
+or
 marea = mareasbilbao(20221030)
 ```
 
