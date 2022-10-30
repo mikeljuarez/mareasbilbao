@@ -5,7 +5,7 @@ class mareasbilbao:
     def __init__(self, fecha:int, url = "https://ideihm.covam.es/api-ihm/getmarea?request=gettide&id=2&format=json&date="):
         if len(str(fecha)) == 8:
             self.fecha = fecha
-            self.url = url + fecha
+            self.url = url + str(fecha)
         else:
             raise 
         response = requests.get(self.url)
